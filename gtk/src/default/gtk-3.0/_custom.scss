@@ -303,3 +303,11 @@ treeview.view:not(:backdrop):not(:selected):hover {
   background-color: $bg_color;
   &:backdrop { background-color: $backdrop_bg_color; }
 }
+
+// Make Font inside button normal
+%button,
+button,
+%link,
+link {
+    font-weight: normal;
+}
