@@ -1,9 +1,11 @@
 $variant: 'dark';
 
+@import 'functions';
+@import 'palette';
 @import 'colors';
 @import 'drawing';
 @import 'common';
-@import 'apps';
-@import 'tweaks';
 @import 'colors-public';
-@import 'libhandy/Adwaita-base';
+@import 'custom';
+@import 'libhandy';
+@import 'apps';
